@@ -1,0 +1,25 @@
+{
+  "name": "testing3",
+  "version": "1.0.0",
+  "description": "Cypress E2E + POM + BDD Cucumber test suite for practicesoftwaretesting.com",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "test:e2e": "cypress run --spec \"cypress/e2e/project.cy.js\"",
+    "test:bdd": "cypress run --spec \"cypress/e2e/features/**/*.feature\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^6.2.2",
+    "cypress": "^15.13.0",
+    "mocha": "^11.7.5"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "esbuild": "^0.24.0"
+  }
+}

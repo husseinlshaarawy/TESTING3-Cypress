@@ -1,0 +1,20 @@
+{
+  "baseUrl": "https://practicesoftwaretesting.com/",
+  "user": {
+    "email": "customer@practicesoftwaretesting.com",
+    "password": "welcome01",
+    "firstName": "Jane",
+    "lastName": "Doe"
+  },
+  "invalidUser": {
+    "email": "wrong@test.com",
+    "password": "wrong-pass-123"
+  },
+  "product": "Hammer",
+  "secondProduct": "Pliers",
+  "search": {
+    "valid": "Hammer",
+    "noResults": "ZZZZZNotARealProduct"
+  },
+  "categories": ["Hand Tools", "Power Tools"]
+}
