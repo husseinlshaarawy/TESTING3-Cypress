@@ -1,7 +1,7 @@
 name: Cypress E2E + BDD
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE22: true
 
 on:
   push:
