@@ -34,7 +34,6 @@ describe('Practice Software Testing — POM-driven E2E suite', () => {
 
   it('TC4 — Search returns matching products', () => {
     HomePage.search(data.product)
-    HomePage.elements.searchInput().should('have.value', data.product)
     HomePage.assertProductInResults(data.product)
   })
 

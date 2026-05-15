@@ -23,6 +23,8 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     baseUrl: 'https://practicesoftwaretesting.com',
+    userAgent:
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36',
     specPattern: [
       'cypress/e2e/**/*.cy.{js,ts}',
       'cypress/e2e/features/**/*.feature',
